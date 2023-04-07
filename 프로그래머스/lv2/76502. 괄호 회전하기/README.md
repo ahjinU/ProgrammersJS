@@ -1,10 +1,10 @@
 # [level 2] 괄호 회전하기 - 76502 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/76502?language=javascript) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/76502?language=cpp) 
 
 ### 성능 요약
 
-메모리: 33.5 MB, 시간: 0.07 ms
+메모리: 3.7 MB, 시간: 0.01 ms
 
 ### 구분
 
