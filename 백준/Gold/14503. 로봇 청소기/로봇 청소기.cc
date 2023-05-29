@@ -36,7 +36,6 @@ int dfs(int x, int y, int cnt, int dir) {
 		}
 		else {
 			dfs(xx, yy, cnt, dir);
-			return answer[0];
 		}
 	}
 	else {
@@ -48,10 +47,10 @@ int dfs(int x, int y, int cnt, int dir) {
 			if (xx < 0 || yy < 0 || xx >= m || yy >= n || map[yy][xx] != 0) continue;
 			else {
 				dfs(xx, yy, cnt, dir);
-				return answer[0];
 			}
 		}
 	}
+	return answer[0];
 
 }
 
